@@ -1,0 +1,1 @@
+INSERT INTO items VALUES (generate_series(10,1000), random()*45, random()::int::boolean, md5(random()::text));
